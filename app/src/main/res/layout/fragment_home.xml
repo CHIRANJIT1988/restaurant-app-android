@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/db1_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="6dp"
+    tools:context=".HomeFragment" >
+
+
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/linearMain"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/cp_button1"
+                    style="@style/HomeButton"
+                    android:onClick="onClick"
+                    android:drawableTop="@drawable/cp_button1"/>
+
+                <Button
+                    android:id="@+id/cp_button2"
+                    style="@style/HomeButton"
+                    android:onClick="onClick"
+                    android:drawableTop="@drawable/cp_button2"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/cp_button3"
+                    style="@style/HomeButton"
+                    android:onClick="onClick"
+                    android:drawableTop="@drawable/cp_button3"/>
+
+                <Button
+                    android:id="@+id/cp_button4"
+                    style="@style/HomeButton"
+                    android:onClick="onClick"
+                    android:drawableTop="@drawable/cp_button4"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/cp_button5"
+                    style="@style/HomeButton"
+                    android:onClick="onClick"
+                    android:drawableTop="@drawable/cp_button5"/>
+
+                <Button
+                    android:id="@+id/cp_button6"
+                    style="@style/HomeButton"
+                    android:onClick="onClick"
+                    android:drawableTop="@drawable/cp_button6"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

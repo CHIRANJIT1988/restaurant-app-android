@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/myPrimaryColor"
+    tools:context="gmc.manasa.zantrik.activity.ComplainDetailsFragment" >
+
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:divider="@color/myPrimaryDarkColor"
+        android:scrollbars="none"
+        android:background="@color/myPrimaryColor"
+        android:dividerHeight="0dp" >
+
+    </ListView>
+
+
+    <!--<LinearLayout
+        android:id="@+id/footer"
+        style="@style/LayoutFooterStyle" >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/myPrimaryColor"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnMessage"
+                style="@style/ButtonStyle"
+                android:text="Write Complaint"/>
+
+        </LinearLayout>
+
+    </LinearLayout>-->
+
+</RelativeLayout>

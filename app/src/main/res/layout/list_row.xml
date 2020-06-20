@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/image_preview"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_close_circle_outline_white_48dp" />
+
+
+    <!--
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/image_preview"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:src="@drawable/ic_camera_grey600_48dp" />
+    -->
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_toRightOf="@id/thumbnail"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="16dp"
+        android:ellipsize="marquee"
+        android:textColor="#fff"
+        android:maxEms="14"
+        android:singleLine="true"
+        android:background="@drawable/round_red_button_style" />
+
+</RelativeLayout>
